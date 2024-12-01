@@ -21,7 +21,7 @@ const Profile = () => {
                 onChangeText={setEmail}
                 style={{ borderBottomWidth: 1, marginBottom: 10 }}
             />
-            <Button title="Salvar" onPress={handleSave} />
+            <Button title="Salvar Dados" onPress={handleSave} />
             <Button title="Sair" onPress={logout} />
         </View>
     );
